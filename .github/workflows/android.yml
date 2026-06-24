@@ -7,6 +7,10 @@ on:
     tags:
       - 'v*'
 
+# Force the runner to permit Node 20 execution to unblock your workflow
+env:
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+
 jobs:
   build:
     runs-on: ubuntu-latest

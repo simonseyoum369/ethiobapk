@@ -2,6 +2,8 @@ name: ethiob_diabetes
 
 on:
   push:
+    branches:
+      - main
     tags:
       - 'v*'
 

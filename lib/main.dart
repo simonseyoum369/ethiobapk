@@ -19,7 +19,7 @@ class ETHIOBApp extends StatelessWidget {
         appBar: AppBar(
           title: const Text('ETHIOB Diabetes'),
           backgroundColor: const Color(0xFF0A5A7A),
-          foregroundColor: Colors.black,
+          foregroundColor: Colors.white,
         ),
         body: const Center(
           child: Text(
